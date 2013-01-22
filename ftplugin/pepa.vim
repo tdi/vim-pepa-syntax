@@ -3,7 +3,6 @@
 " Maintainer: Dariusz Dwornikowski
 " Latest Revision: 22 Jan 2013
 
-let b:current_syntax = "pepa"
 
 syn match rateName '\<\l\w*'
 syn match ProcName '\<\u\w*'
@@ -27,3 +26,4 @@ hi def link basicOperators Statement
 hi def link rateName  Define
 hi def link ProcName  Function
 hi def link comment Comment
+let b:current_syntax = "pepa"
