@@ -7,13 +7,16 @@
 syn match rateName '\<\l\w*'
 syn match ProcName '\<\u\w*'
 syn match comment  '\/\/.*$'
+
+syn region longcomment  start='\/\*' end='\*\/' 
+
+
 syn keyword basicSymbols tau infty top
 
 syn match basicOperators "="
 syn match basicOperators "<"
 syn match basicOperators ">"
 syn match basicOperators "\."
-syn match basicOperators "/"
 syn match basicOperators "\["
 syn match basicOperators "]"
 syn match basicOperators "+"
@@ -26,4 +29,5 @@ hi def link basicOperators Statement
 hi def link rateName  Define
 hi def link ProcName  Function
 hi def link comment Comment
+hi def link longcomment Comment
 let b:current_syntax = "pepa"
