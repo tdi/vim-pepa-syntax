@@ -16,6 +16,7 @@ syn keyword basicSymbols tau infty top
 syn match basicOperators "="
 syn match basicOperators "<"
 syn match basicOperators ">"
+syn match basicOperators "||"
 syn match basicOperators "\."
 syn match basicOperators "\["
 syn match basicOperators "]"
