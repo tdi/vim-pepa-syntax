@@ -19,6 +19,13 @@ The plugin should work out of the box, however if you want to specify filetypes 
 
     au BufRead, BufNewFile *.pepa setfiletype pepa
 
+Fun stuff
+=========
+
+The plugin has a conceal feature, it substitutes ``tau``, ``infty`` and ``top`` with unicode
+characters. Just for fun. To enable it, put this into your ``.vimrc`` config::
+
+    let g:pepa_conceal=1
 
 License
 =======
